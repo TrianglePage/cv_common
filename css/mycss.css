@@ -129,7 +129,7 @@ body {
 	font-family:Helvetica,Arial,sans-serif;
 	width: 100%;
 	height: 100%;
-	z-index:1;
+	z-index:0;
 }
 
 .page3_time_line
@@ -138,7 +138,7 @@ body {
 	left:37%;
 	width: 25%;
 	height: 100%;
-	z-index:1;
+	z-index:0;
 }
 
 .page3_time_begin
@@ -168,7 +168,7 @@ body {
 	border-radius: 50px;*/
     background-color: #ff9080;
     top: 11%;
-    left:50%;
+    left: 49.8%;
 }
 
 .page3_time_line_horizon
@@ -199,6 +199,23 @@ body {
 {
     top: 80%;
     left:50%;
+}
+
+.page3_circle
+{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.page3_circle_1
+{
+    left: 50%;
+    top: 30%;
 }
 /****************** page3 end   *************************/
 
