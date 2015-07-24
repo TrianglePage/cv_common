@@ -67,6 +67,18 @@ body {
 	height: 20%;
 	z-index:1;
 }
+.page1_img_light
+{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width: 100%;
+	height: 100%;
+	z-index:2;
+	opacity:0.1;
+	filter:alpha(opacity=10);
+}
+
 
 
 .page1_text_mid
@@ -111,6 +123,18 @@ body {
 	height: 100%;
 	z-index:1;
 }
+
+.page2_img_photo
+{
+	position:relative;
+	top:15%;
+	left:-25%;
+	width: 35%;
+	height: 20%;
+	z-index:1;
+}
+
+
 /****************** page2 end   *************************/
 
 
@@ -221,10 +245,54 @@ body {
 
 
 /****************** page4 start *************************/
+.page4_content{
 
+	background:url('../img/page4_background.jpg');
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;			
+	background-positon:100%, 100%; 
+	background-repeat:no-repeat;
+	font-family:Helvetica,Arial,sans-serif;
+	width: 100%;
+	height: 100%;
+	z-index:1;
+}
+
+.page4_img_map
+{
+	position:absolute;
+	top:15%;
+	left:0%;
+	width: 100%;
+	height: 40%;
+	z-index:1;
+}
+
+.page4_img_point
+{
+	position:absolute;
+	top:30%;
+	left:58%;
+	width: 20%;
+	height: 10%;
+	z-index:2;
+}
 /****************** page4 end   *************************/
 
 
 /****************** page5 start *************************/
+.page5_content{
 
+	background:url('../img/page5_background.jpg');
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;			
+	background-positon:100%, 100%; 
+	background-repeat:no-repeat;
+	font-family:Helvetica,Arial,sans-serif;
+	width: 100%;
+	height: 100%;
+	z-index:1;
+}
 /****************** page5 end   *************************/
